@@ -30,6 +30,11 @@ The one-page dashboard includes:
 
 ---
 
+## Dashboard Screenshot
+
+![Superstore Dashboard](images/dashboard.png)
+
+
 ## Key Insights
 
 - **Sales increased consistently** from 2014 to 2016, with a decline in 2017 driven by lower regional performance.
