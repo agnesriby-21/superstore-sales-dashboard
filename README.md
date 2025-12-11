@@ -37,7 +37,7 @@ The one-page dashboard includes:
 
 ## Key Insights
 
-- **Sales increased steadily from 2014–2016. The apparent drop in 2017 is due to partial-year data rather than an actual decline.
+- **Sales increased steadily from 2014–2016** The apparent drop in 2017 is due to partial-year data rather than an actual decline.
 - **Technology and Office Supplies** contributed the most to profitability, while some Furniture subcategories generated losses.
 - **Consumer segment** accounted for the largest share of sales.
 - **States such as New York and California** produced the highest profit contribution.
