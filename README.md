@@ -32,7 +32,7 @@ The one-page dashboard includes:
 
 ## Dashboard Screenshot
 
-![Superstore Dashboard](images/dashboard.png)
+![Dashboard Preview](Dashboard.png)
 
 
 ## Key Insights
