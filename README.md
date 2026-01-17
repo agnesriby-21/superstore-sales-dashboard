@@ -82,6 +82,32 @@ Dashboard dibuat dalam bentuk **one-page dashboard** dengan fokus pada ringkasan
 
 ## Project Structure
 
+### `/src`
+Berisi seluruh kode aplikasi:
+
+- `/ajax`  
+  Handler untuk request **AJAX** (join group, chat, thread, dll.)
+
+- `/class`  
+  Seluruh **OOP class** untuk entity utama  
+  (User, Group, Event, Member, dll.)
+
+- `/images`  
+  Penyimpanan foto dosen dan mahasiswa
+
+- `index.php`  
+  Halaman utama aplikasi berdasarkan **role login**
+
+- `login.php`  
+  Halaman login pengguna
+
+- `*.php`  
+  Seluruh halaman fitur aplikasi  
+  (CRUD, detail grup, event, thread, dsb.)
+
+- `style.css`  
+  Styling utama aplikasi
+
 
 ---
 
