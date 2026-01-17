@@ -68,46 +68,24 @@ Dashboard dibuat dalam bentuk **one-page dashboard** dengan fokus pada ringkasan
 
 ---
 
-## Tech Stack
-
-| Layer | Teknologi |
-|------|----------|
-| Data Visualization | Power BI |
-| Data Modeling | Power BI Data Model |
-| Calculation | DAX |
-| Dataset | Sample Superstore |
-| Visualization | KPI Cards, Bar Chart, Donut Chart, Line Chart |
-
----
-
 ## Project Structure
 
-### `/src`
-Berisi seluruh kode aplikasi:
+### `/`
+Root folder berisi seluruh file utama project Power BI:
 
-- `/ajax`  
-  Handler untuk request **AJAX** (join group, chat, thread, dll.)
+- `Dashboard.pbix`  
+  File utama **Power BI dashboard** yang berisi data model, DAX measures, dan seluruh visualisasi
 
-- `/class`  
-  Seluruh **OOP class** untuk entity utama  
-  (User, Group, Event, Member, dll.)
+- `/Dataset`  
+  Berisi dataset yang digunakan dalam analisis
+  - `Superstore.xlsx` — Dataset Sample Superstore
 
-- `/images`  
-  Penyimpanan foto dosen dan mahasiswa
+- `/Images`  
+  Berisi gambar dan screenshot dashboard
+  - `Dashboard.png` — Tampilan utama dashboard Power BI
 
-- `index.php`  
-  Halaman utama aplikasi berdasarkan **role login**
-
-- `login.php`  
-  Halaman login pengguna
-
-- `*.php`  
-  Seluruh halaman fitur aplikasi  
-  (CRUD, detail grup, event, thread, dsb.)
-
-- `style.css`  
-  Styling utama aplikasi
-
+- `README.md`  
+  Dokumentasi project yang menjelaskan tujuan, analisis, dan insight
 
 ---
 
