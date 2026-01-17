@@ -73,19 +73,17 @@ Dashboard dibuat dalam bentuk **one-page dashboard** dengan fokus pada ringkasan
 ### `/`
 Root folder berisi seluruh file utama project Power BI:
 
-- `Dashboard.pbix`  
-  File utama **Power BI dashboard** yang berisi data model, DAX measures, dan seluruh visualisasi
+- `Superstore Sales Dashboard.pbix`  
+  File utama **Power BI dashboard** yang berisi data model, DAX measures, dan seluruh visualisasi analisis
 
-- `/Dataset`  
-  Berisi dataset yang digunakan dalam analisis
-  - `Superstore.xlsx` — Dataset Sample Superstore
+- `Sample - Superstore.xls`  
+  Dataset **Sample Superstore** yang digunakan sebagai sumber data analisis
 
-- `/Images`  
-  Berisi gambar dan screenshot dashboard
-  - `Dashboard.png` — Tampilan utama dashboard Power BI
+- `Dashboard.png`  
+  Screenshot tampilan utama dashboard Power BI
 
 - `README.md`  
-  Dokumentasi project yang menjelaskan tujuan, analisis, dan insight
+  Dokumentasi project yang menjelaskan tujuan analisis, visualisasi, dan insight bisnis
 
 ---
 
