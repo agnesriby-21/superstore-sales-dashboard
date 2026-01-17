@@ -1,29 +1,44 @@
 # Superstore Sales Dashboard (Power BI)
 
-This project is a data analysis and visualization dashboard built using **Power BI**.  
-The dataset used is the *Sample Superstore* dataset, which contains sales, profit, product, category, segment, and regional information from 2014–2017.
+Sebuah project **data analysis dan data visualization** yang dibangun menggunakan **Power BI** untuk menganalisis performa penjualan berdasarkan dataset *Sample Superstore*.  
+Dataset ini berisi data **sales, profit, product, category, segment, dan region** pada periode **2014–2017**.
 
-The goal of this project is to understand business performance trends and identify key insights that support decision-making.
+Project ini bertujuan untuk memahami **tren kinerja bisnis** serta menghasilkan **insight berbasis data** yang dapat mendukung pengambilan keputusan.
+
+---
+
+## Project Objectives
+- Menganalisis performa penjualan dan profit secara historis
+- Melakukan perbandingan performa **Year-over-Year (YoY)**
+- Mengidentifikasi produk, segment, dan region dengan kontribusi tertinggi
+- Membangun dashboard ringkas dan informatif dalam satu halaman
+- Mengimplementasikan **DAX Measures** untuk perhitungan KPI dan analisis lanjutan
 
 ---
 
 ## Dashboard Overview
 
-The one-page dashboard includes:
+Dashboard dibuat dalam bentuk **one-page dashboard** dengan fokus pada ringkasan performa bisnis.
 
-### **1. KPI Cards**
+### KPI Cards
 - **Total Sales**
 - **Total Profit**
 - **Total Orders**
-- **PY (Prior Year)** comparison for each KPI
-- **vs PY (%)** performance indicator
+- **Prior Year (PY)** untuk setiap KPI
+- **vs PY (%)** sebagai indikator pertumbuhan YoY
 
-### **2. Visualizations**
+---
+
+### Visualizations
 - **Sales Trend by Year**  
-- **Profit by Product** (colored bar chart: profit vs loss)
-- **Sales by Segment** (donut chart)
-- **Profit by State** (horizontal bar chart)
-- **Slicers** for dynamic filtering:
+  Menampilkan tren penjualan dari tahun 2014 hingga 2017
+- **Profit by Product**  
+  Bar chart dengan visual pembeda antara **profit dan loss**
+- **Sales by Segment**  
+  Donut chart untuk melihat distribusi penjualan per segment
+- **Profit by State**  
+  Horizontal bar chart untuk kontribusi profit per state
+- **Slicers (Dynamic Filters)**:
   - Date
   - Category
   - Segment
@@ -31,38 +46,42 @@ The one-page dashboard includes:
 ---
 
 ## Dashboard Screenshot
-
 ![Dashboard Preview](Dashboard.png)
 
+---
 
 ## Key Insights
-
-- **Sales increased steadily from 2014–2016** The apparent drop in 2017 is due to partial-year data rather than an actual decline.
-- **Technology and Office Supplies** contributed the most to profitability, while some Furniture subcategories generated losses.
-- **Consumer segment** accounted for the largest share of sales.
-- **States such as New York and California** produced the highest profit contribution.
-- **All KPIs improved YoY**, showing strong growth momentum.
-
----
-
-## Skills Demonstrated
-
-- Power BI Data Modeling  
-- DAX Measures  
-- KPI Card Design  
-- Data Cleaning & Formatting  
-- Trend Analysis  
-- Business Insight Development  
-- Dashboard Layout & UX Design  
+- Penjualan menunjukkan **tren meningkat dari 2014–2016**, sedangkan penurunan di 2017 disebabkan oleh data yang hanya mencakup sebagian tahun.
+- **Technology dan Office Supplies** menjadi kategori dengan kontribusi profit terbesar, sementara beberapa subkategori **Furniture mengalami kerugian**.
+- **Consumer segment** merupakan kontributor penjualan terbesar.
+- **New York dan California** menghasilkan profit tertinggi dibandingkan state lainnya.
+- Seluruh **KPI mengalami peningkatan YoY**, menunjukkan pertumbuhan bisnis yang positif.
 
 ---
 
-## Project Files
+## Key Technical Highlights
+- Data modeling menggunakan struktur yang efisien untuk analisis Power BI
+- Penggunaan **DAX Measures** untuk KPI, Prior Year, dan YoY calculation
+- Dynamic filtering menggunakan **Slicers**
+- Visual encoding untuk membedakan nilai profit dan loss
+- Dashboard layout dirancang dengan fokus pada **business readability**
 
-- **.pbix file** (Power BI Dashboard)
-- **Dataset (Superstore.xlsx)**
-- **Images / Screenshots** of dashboard
-- **README.md** documentation
+---
+
+## Tech Stack
+
+| Layer | Teknologi |
+|------|----------|
+| Data Visualization | Power BI |
+| Data Modeling | Power BI Data Model |
+| Calculation | DAX |
+| Dataset | Sample Superstore |
+| Visualization | KPI Cards, Bar Chart, Donut Chart, Line Chart |
+
+---
+
+## Project Structure
+
 
 ---
 
@@ -94,3 +113,4 @@ DIVIDE([Total Profit] - [Profit PY], [Profit PY])
 
 Orders vs PY % =
 DIVIDE([Total Orders] - [Orders PY], [Orders PY])
+
